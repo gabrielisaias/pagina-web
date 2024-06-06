@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Asignación de Entidades Militares</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h2>Asignación de Entidades Militares</h2>
+<div id="alumnos-form">
+    <label for="cantidad-alumnos">Ingrese la cantidad de alumnos (entre 5 y 20):</label>
+    <input type="number" id="cantidad-alumnos" min="5" max="20">
+    <button onclick="capturarAlumnos()">Ingresar Datos</button>
+</div>
+
+<div id="resultados">
+    <h3>Resultado:</h3>
+    <p>El alumno/a de mayor edad es: <span id="nombre-mayor-edad"></span></p>
+    <p>Género: <span id="genero-mayor-edad"></span></p>
+    <p>Entidad militar asignada: <span id="entidad-militar"></span></p>
+</div>
+
+<script src="cosa.js"></script>
+</body>
+</html>
